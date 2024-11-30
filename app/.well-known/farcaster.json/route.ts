@@ -4,16 +4,17 @@ export async function GET() {
   const config = {
     accountAssociation: {
       header:
-        "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyY2Q4NWEwOTMyNjFmNTkyNzA4MDRBNkVBNjk3Q2VBNENlQkVjYWZFIn0",
-      payload: "eyJkb21haW4iOiJmcmFtZXMtdjIudmVyY2VsLmFwcCJ9",
+        "eyJmaWQiOjQ0MzcxMiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDk5ODk1OTU5NmMxYjk2QTUzM2Q5QmY0MzFDMzE5M2NlZmQwMDkxY0EifQ",
+      payload:
+        "eyJkb21haW4iOiJodHRwczovL2ZyYW1lcy12Mi10aGV0YS52ZXJjZWwuYXBwIn0",
       signature:
-        "MHhiNDIwMzQ1MGZkNzgzYTExZjRiOTllZTFlYjA3NmMwOTdjM2JkOTY1NGM2ODZjYjkyZTAyMzk2Y2Q0YjU2MWY1MjY5NjI5ZGQ5NTliYjU0YzEwOGI4OGVmNjdjMTVlZTdjZDc2YTRiMGU5NzkzNzA3YzkxYzFkOWFjNTg0YmQzNjFi",
+        "MHhmNzAwNGFiOGJiYTUzYWY4ODZkNTZmZjNhNWExOWZiNjhkZTk0MWU3NDZhMjNmMTg0NWJjNjY2NzIzZjk4NmRmMTUxMTI0YTkwMzJjMmI0OTliMTI5NmUyMGU0MTUxYjZlMmFkMWM5NjNiOTI1MzFjMjE0NTEzMjYxNWEyNDcwOTFi",
     },
     frame: {
       version: "0.0.0",
-      name: "Frames v2 TEST",
-      iconUrl: `${appUrl}/vercel.svg`,
-      splashImageUrl: `${appUrl}/next.svg`,
+      name: "Baseship v2 TEST",
+      iconUrl: `${appUrl}/baseship.svg`,
+      splashImageUrl: `${appUrl}/baseship.svg`,
       splashBackgroundColor: "#f7f7f7",
       homeUrl: appUrl,
     },
