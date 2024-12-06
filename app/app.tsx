@@ -13,7 +13,6 @@ export default function App(
   return (
     <div>
       <Demo title={title} />
-      <PixelCanvas />
     </div>
   );
 }
