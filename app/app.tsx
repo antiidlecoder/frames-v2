@@ -1,6 +1,5 @@
 "use client";
 
-import PixelCanvas from "@/components/PixelCanvas";
 import dynamic from "next/dynamic";
 
 const Demo = dynamic(() => import("@/components/Demo"), {
